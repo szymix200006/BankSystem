@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview</title>
+    <link rel="stylesheet" href="overview.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src = overview.js defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="name">Balance: $34652</span> 
+            <span class="profile">Andrew Tate</span><img src=profile.png>
+            <span class="pageName">Overview</span>
+            <div class="date2">
+                <span class="day">12</span>
+            <span class="i">-</span>
+            <span class="month">12</span>
+            <span class="i">-</span>
+            <span class="year">1221</span>
+            <span class="i"> </span>
+            <span class="hour">12</span>
+            <span class="i">:</span>
+            <span class="minute">12</span>
+            <span class="i">:</span>
+            <span class="second">12</span>
+            </div>
+        </div>
+        <div class="options">
+            <div class="info">Info</div>
+            <br class="infobr">
+            <div class="balance">Balance: $3024804</div>
+        
+            <div class="iban">IBAN: OK12343</div>
+        </div>
+        <div class="options1">
+            <div class="actions">Actions</div>
+            <br class="actbr">
+            <div class="flexbox">
+                <button id = deposit class="but">DEPOSIT</button>
+                <button id = withdraw class="but">WITHDRAW</button>
+                <button id = transfer class="but">TRANSFER</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">Card
+            <div class="card-shape">
+                <div class="bank-name">Mazebank</div>
+                <div class="iban-number">OK12343</div>
+                <div class="expiry-date">08/25</div>
+            </div>
+        </div>
+        </div>
+        <div class="last-transactions-container">
+            <div class="trans-header">Last Tranactions</div>
+            <div class="transactions-flex">
+                <div class="transaction"><div class="type">Incoming</div><div class="name-t">Patrick Bateman</div><div class="amount">+$500</div></div>
+                <div class="transaction"><div class="type">Outcoming</div><div class="name-t">Andrew Tate</div><div class="amount">-%500</div></div>
+                <div class="transaction"><div class="type">Incoming</div><div class="name-t">Steve Jobs</div><div class="amount">+$6000</div></div>
+            </div>
+            <a class="more" href="transactions.html" target="frame">See all transactions</a>
+        </div>
+        <div class="lightbox">
+            <div class="window">
+                <div class="closing">x</div>
+                <div class="window-header">DEPOSIT</div>
+                <label for="mon" class="adress">To:</label><input type="text" name="mon" class="adress-inp">
+                <input class=money type="number">
+                <button class="submit">SUBMIT</button>
+            </div>
+        </div>
+        <script src="coc.js" ></script>
+</body>
+</html>

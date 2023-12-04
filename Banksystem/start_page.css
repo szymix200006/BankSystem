@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins$display=swap');
+*{
+    font-family: 'Poppins';
+}
+body{
+    margin: 0;
+    /*background: linear-gradient(to left, #00e6ac , #171d21);*/
+    overflow: hidden;
+}
+.container{
+    background: linear-gradient(to left, rgb(86, 48, 168), #171d21);
+    height: 98vh;
+    margin-top: 1vh;
+    width: 99%;
+    margin-left: .5%;
+    border-radius: 20px;
+}
+.header{
+    font-size: 5rem;
+    color: #FFFDFA;
+    margin-top: 4rem;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.welcome{
+    font-size: 2rem;
+    color: #FFFDFA;
+    margin-top: 20rem;
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+img{
+    height: 3.5rem;
+    margin-right: 1rem;
+}
+
+
+.flying-objects{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+@keyframes animate{
+    0%{
+        opacity: .5;
+        transform: translateY(0) rotate(0deg);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-1000px) rotate(720deg);
+    }
+}
+
+.flying-objects div{
+    display: block;
+    background-color: grey;
+    border-radius: 20%;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    animation: animate 25s linear infinite;
+    bottom: -100px;
+}
+
+.flying-objects div:nth-child(1) {
+    left: 10%;
+    width: 3rem;
+    height: 3rem;
+    animation-delay: 0s;
+}
+
+.flying-objects div:nth-child(2){
+    left: 20%;
+    width: 5rem;
+    height: 5rem;
+    animation-delay: 2s;
+}
+
+.flying-objects div:nth-child(3){
+    left: 30%;
+    width: 1rem;
+    height: 1rem;
+    animation-delay: 5s;
+}
+
+.flying-objects div:nth-child(4){
+    left: 40%;
+    width: 4rem;
+    height: 4rem;
+    animation-delay: 0s;
+}
+
+.flying-objects div:nth-child(5){
+    left: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    animation-delay: 3s;
+}
+
+.flying-objects div:nth-child(6){
+    left: 63%;
+    width: 3.5rem;
+    height: 3.5rem;
+    animation-delay: 4s;
+}
+
+.flying-objects div:nth-child(7){
+    left: 85%;
+    width: 2rem;
+    height: 2rem;
+    animation-delay: 0s;
+}
+
+.flying-objects div:nth-child(8){
+    left: 90%;
+    width: 3rem;
+    height: 3rem;
+    animation-delay: 0s;
+}
+.flying-objects div:nth-child(9) {
+    left: 10%;
+    width: 1rem;
+    height: 1rem;
+    animation-delay: 10s;
+}
+
+.flying-objects div:nth-child(10){
+    left: 20%;
+    width: 2rem;
+    height: 2rem;
+    animation-delay: 11s;
+}
+
+.flying-objects div:nth-child(11){
+    left: 30%;
+    width: 5rem;
+    height: 5rem;
+    animation-delay: 9s;
+}
+
+.flying-objects div:nth-child(12){
+    left: 40%;
+    width: 1.5rem;
+    height: 1.5rem;
+    animation-delay: 15s;
+}
+
+.flying-objects div:nth-child(13){
+    left: 50%;
+    width: 4rem;
+    height: 4rem;
+    animation-delay: 11s;
+}
+
+.flying-objects div:nth-child(14){
+    left: 63%;
+    width: 2rem;
+    height: 2rem;
+    animation-delay: 14s;
+}
+
+.flying-objects div:nth-child(15){
+    left: 85%;
+    width: 4.5rem;
+    height: 4.5rem;
+    animation-delay: 16s;
+}
+
+.flying-objects div:nth-child(16){
+    left: 90%;
+    width: 1rem;
+    height: 1rem;
+    animation-delay: 10s;
+}
+
+.fingerprint{
+    border-style: solid;
+    background-color:#171d21;
+    height: 20vh;
+    width: 10%;
+    margin-left: 50%;
+    transform:translateX(-50%);
+    margin-top: 60vh;
+    border-radius:10%;
+    position: absolute;
+}
+.inside{
+    background-color: rgb(86, 48, 168);;
+    height: 0%;
+    width: 100%;;
+    position: absolute;
+    border-radius:10%;
+}
+.imagefp{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index:9999999999999999;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="settings.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="charts.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <span class="name">Balance: $34652</span> 
+        <span class="profile">Andrew Tate</span><img src=profile.png>
+        <span class="pageName">Settings</span>
+        <div class="date2">
+            <span class="day">12</span>
+            <span class="i">-</span>
+            <span class="month">12</span>
+            <span class="i">-</span>
+            <span class="year">1221</span>
+            <span class="i"> </span>
+            <span class="hour">12</span>
+            <span class="i">:</span>
+            <span class="minute">12</span>
+            <span class="i">:</span>
+            <span class="second">12</span>
+        </div>
+    </div>
+    <div class="changeBox">
+        <div id="iban" class="change">
+            <div class="header1">IBAN</div>
+            <div class="current1">Current IBAN: 1234</div>
+            <div class="change1"><label for =change1>New IBAN:<br><br><input placeholder="New IBAN here" type=text></label><button>Submit</button></div>
+        </div>
+        <div id="phoneNumber" class="change">
+            <div class="header1">PHONE NUMBER</div>
+            <div class="current1">Current Phone number: 543211234</div>
+            <div class="change1"><label for =change1>New Phone:<br><br><input placeholder="New phone here"type=text></label><button>Submit</button></div>
+        </div>
+        <div id="pin" class="change">
+            <div class="header1">PIN</div>
+            <div class="current1">Current PIN: 1234</div>
+            <div class="change1"><label for =change1>New PIN:<br><br><input placeholder="New PIN here"type=text></label><button>Submit</button></div>
+        </div>
+    </div>
+        <div class="graphBox">
+            <div class="box">
+                <canvas id="myChart1"></canvas>
+            </div>
+            <div class="box">
+                <canvas id="myChart2"></canvas>
+            </div>
+        </div>
+        <script src="coc.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
+</body>
+</html>
